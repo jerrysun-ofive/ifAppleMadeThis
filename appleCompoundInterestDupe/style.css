@@ -1,0 +1,97 @@
+form {
+    display: grid;
+}
+
+h1 {
+    margin-bottom: 8px;
+}
+
+/*
+removes the arrow in the number input 
+*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+#principal, #interest, #years, body, button {
+    color: white;
+    font-family: Montserrat, Arial;
+    font-size: 20px;
+}
+
+.calculatorContainer {
+    background-color: rgb(42, 42, 42);
+    padding: 20px;
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    min-width: 660px;
+    max-width: 900px;
+}
+
+#principal, #interest, #years {
+    padding: 10px;
+    padding-left: 20px;
+    border-style: none;
+    border-radius: 7px;
+    background-color: rgb(59, 59, 59);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    margin-bottom: 20px;
+}
+
+label {
+    background-color: rgb(59, 59, 59);
+    padding: 8px;
+    padding-left: 20px;
+    margin-bottom: -10px;
+    border-bottom-style: solid;
+    border-color: rgba(75, 75, 75, 0.7);
+    border-width: 2px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+label, button {
+    font-weight: 520;
+}
+
+p {
+    text-align: center;
+   /* for testing use: 
+
+    border-color: lightpink;
+    border-style: solid;
+
+    */
+}
+
+#totalAmount {
+    color: rgb(12, 160, 59);
+    font-weight: 540;
+    padding-left: 5px;
+}
+
+
+button {
+    background-color: rgb(238, 143, 49);
+    padding: 10px;
+    border-style: none;
+    border-radius: 7px;
+}
+
+button:hover {
+    background-color: rgb(233, 156, 80)
+}
+
+buttonr:active {
+    background-color:rgb(232, 176, 119);
+}
+

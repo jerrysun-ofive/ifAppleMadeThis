@@ -1,0 +1,39 @@
+<!--This is a project based on the works of youtube channel brocode-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Compound Interest Calculator</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="calculatorContainer">
+        <h1 id="heading">Compound Interest Calculator</h1>
+        <form>
+    
+            <label for="principle">Principle Amount:</label>
+            <input type="number" id="principal" placeholder="Input principle amount...">
+
+            <label for="interest">Interest Rate:</label>
+            <input type="number" id="interest" placeholder="Input interest rate...">
+
+            <label for="years">Years: </label>
+            <input type="number" id="years" placeholder="Input years...">
+    
+            <button type="button" onclick="calculate()">Calculate</button>
+            <p>Total: <span id="totalAmount">$0.00</span></p>
+            
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

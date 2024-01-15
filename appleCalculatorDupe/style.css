@@ -1,0 +1,87 @@
+#keys {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 65px 65px 65px 65px;
+    gap: 8px;
+    width: 80%;
+}
+
+
+#wrapper {
+    background-color: rgb(42, 42, 42);
+    max-width: 340px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    min-width: 320px;
+}
+
+body {
+    background-color: rgb(199, 199, 199);
+    padding: 100px;
+    padding-left: 180px;
+}
+
+#screen {
+    padding: 20px;
+    font-size: 10px;
+    margin: 0px;
+    width: 100%;
+    height: 80px;
+    text-align: right;
+    border: none;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+#screen.break {
+    word-wrap: break-word;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin: 0px;
+    background-color: rgb(75, 75, 75);
+    border-style: none;
+    color: white;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+ button:hover {
+    background-color: rgb(95, 95, 95);
+ }
+
+ button:active {
+    background-color: rgb(134, 135, 135);
+ }
+
+.operator {
+    background-color: rgb(238, 143, 49);
+}
+
+.operator:hover {
+    background-color: rgb(233, 156, 80)
+}
+
+.operator:active {
+    background-color:rgb(232, 176, 119);
+}
+
+.tripleButtonDiv {
+    margin: 30px;
+    margin-top: -15px;
+    width: 100%;
+}
+
+.tripleButton {
+    width: 270px;
+}
